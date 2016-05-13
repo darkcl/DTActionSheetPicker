@@ -8,6 +8,8 @@
 
 @import XCTest;
 
+#import <DTActionSheetPicker/DTActionSheetPicker.h>
+
 @interface Tests : XCTestCase
 
 @end

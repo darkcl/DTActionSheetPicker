@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3789502B3DC7C8FB2DFBCBDD /* Pods_DTActionSheetPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC26667FC178CC89D85F41C4 /* Pods_DTActionSheetPicker_Example.framework */; };
+		2F20638B88B1B67E64C0B27D /* libPods-DTActionSheetPicker_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 619057BCD0FFB4789C6F8D48 /* libPods-DTActionSheetPicker_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C4E33D0A8BE785615E6C89DB /* Pods_DTActionSheetPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 624826F73247706547D0BD16 /* Pods_DTActionSheetPicker_Tests.framework */; };
+		923B02183E915EE15442EFCA /* libPods-DTActionSheetPicker_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A38B14377FD3BC36EBD5B7 /* libPods-DTActionSheetPicker_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		624826F73247706547D0BD16 /* Pods_DTActionSheetPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTActionSheetPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619057BCD0FFB4789C6F8D48 /* libPods-DTActionSheetPicker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTActionSheetPicker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6461E5CE75C0E24CD041BAFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7B9FE1F452728F5C0F65EB0E /* Pods-DTActionSheetPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTActionSheetPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTActionSheetPicker_Example/Pods-DTActionSheetPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		AC26667FC178CC89D85F41C4 /* Pods_DTActionSheetPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTActionSheetPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B860B0CA5CBB75BFFA0FF64E /* Pods-DTActionSheetPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTActionSheetPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTActionSheetPicker_Tests/Pods-DTActionSheetPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4A38B14377FD3BC36EBD5B7 /* libPods-DTActionSheetPicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTActionSheetPicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74B040A66F4EC98975B5693 /* Pods-DTActionSheetPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTActionSheetPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTActionSheetPicker_Tests/Pods-DTActionSheetPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3789502B3DC7C8FB2DFBCBDD /* Pods_DTActionSheetPicker_Example.framework in Frameworks */,
+				923B02183E915EE15442EFCA /* libPods-DTActionSheetPicker_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C4E33D0A8BE785615E6C89DB /* Pods_DTActionSheetPicker_Tests.framework in Frameworks */,
+				2F20638B88B1B67E64C0B27D /* libPods-DTActionSheetPicker_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AC26667FC178CC89D85F41C4 /* Pods_DTActionSheetPicker_Example.framework */,
-				624826F73247706547D0BD16 /* Pods_DTActionSheetPicker_Tests.framework */,
+				D4A38B14377FD3BC36EBD5B7 /* libPods-DTActionSheetPicker_Example.a */,
+				619057BCD0FFB4789C6F8D48 /* libPods-DTActionSheetPicker_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,6 +1,0 @@
-framework module Pods_DTActionSheetPicker_Example {
-  umbrella header "Pods-DTActionSheetPicker_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

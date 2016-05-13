@@ -17,12 +17,12 @@ DTActionSheetPicker is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DTActionSheetPicker"
+pod 'DTActionSheetPicker'
 ```
 
 ## Author
 
-Yeung Yiu Hung, yeungyiuhung@cherrypicks.com
+Yeung Yiu Hung, hkclex@gmail.com
 
 ## License
 

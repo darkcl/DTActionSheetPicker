@@ -1,6 +1,0 @@
-framework module DTActionSheetPicker {
-  umbrella header "DTActionSheetPicker-umbrella.h"
-
-  export *
-  module * { export * }
-}
