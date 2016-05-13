@@ -1,0 +1,19 @@
+{
+  "name": "DTActionSheetPicker",
+  "version": "0.1.0",
+  "summary": "A short description of DTActionSheetPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DTActionSheetPicker",
+  "license": "MIT",
+  "authors": {
+    "Yeung Yiu Hung": "yeungyiuhung@cherrypicks.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DTActionSheetPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DTActionSheetPicker/Classes/**/*"
+}

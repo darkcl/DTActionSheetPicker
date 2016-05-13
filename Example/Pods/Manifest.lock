@@ -1,0 +1,16 @@
+PODS:
+  - DTActionSheetPicker (0.1.0)
+
+DEPENDENCIES:
+  - DTActionSheetPicker (from `../`)
+
+EXTERNAL SOURCES:
+  DTActionSheetPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DTActionSheetPicker: 54c81bcdf7987fe6c28cdf9e563786f337e78edf
+
+PODFILE CHECKSUM: f27a65274bf114f6afd321e021cca0a4951637b9
+
+COCOAPODS: 1.0.0
