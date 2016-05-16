@@ -7,8 +7,8 @@
 //
 
 #import "DTActionSheetPicker.h"
-
 #import "DTActionSheetPickerBuilder.h"
+
 #import "DTTreeNode.h"
 
 @interface DTActionSheetPicker() {
@@ -52,7 +52,7 @@
     
     DTActionSheetPicker *aDatePicker = [aBuilder build];
     
-    [aDatePicker showPicker];
+    [aDatePicker showPickerInView:view];
     
     return aDatePicker;
 }
@@ -70,10 +70,12 @@
         dateFormatter = [[NSDateFormatter alloc] init];
         
         if (pickerMode == DTActionSheetPickerDateMode) {
-            [dateFormatter setDateFormat:@"YYYY-MM-DD"];
+            [dateFormatter setDateFormat:@"yyyy-MM-dd"];
         }else{
             [dateFormatter setDateFormat:@"HH-mm"];
         }
+        [dateFormatter setTimeZone:[NSTimeZone localTimeZone]];
+        _dateTree = [self treeFromDateArray:builder.dateArray];
     }
     return self;
 }
@@ -81,15 +83,54 @@
 - (DTTreeNode *)treeFromDateArray:(NSArray <NSDate *> *)dates{
     DTTreeNode *aTree = [[DTTreeNode alloc] init];
     
-    for (NSDate *aDate in dates) {
+    NSArray <NSDate *> *orderedDate = [dates sortedArrayUsingComparator:^NSComparisonResult(NSDate *  _Nonnull obj1, NSDate *  _Nonnull obj2) {
+        return [obj1 compare:obj2];
+    }];
+    
+    for (NSDate *aDate in orderedDate) {
+        NSString *dateCompo = [dateFormatter stringFromDate:aDate];
         
+        NSArray *comp = [dateCompo componentsSeparatedByString:@"-"];
+        
+        DTTreeNode *currentNode;
+        
+        for (NSString *str in comp) {
+            if (currentNode == nil) {
+                if (![aTree nodeFromData:str]) {
+                    currentNode = [[DTTreeNode alloc] init];
+                    currentNode.data = str;
+                    [aTree addChild:currentNode];
+                }else{
+                    currentNode = [aTree nodeFromData:str];
+                }
+            }else{
+                if (![currentNode nodeFromData:str]) {
+                    // Create new node
+                    DTTreeNode *nextNode = [[DTTreeNode alloc] init];
+                    nextNode.data = str;
+                    [currentNode addChild:nextNode];
+                    currentNode = nextNode;
+                }else{
+                    // Set current node to that node
+                    currentNode = [currentNode nodeFromData:str];
+                }
+            }
+        }
     }
     
     return aTree;
 }
 
-- (void)showPicker{
+- (void)showPickerInView:(UIView *)view{
     
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 0;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+    return 0;
 }
 
 @end

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DTActionSheetPicker: 54c81bcdf7987fe6c28cdf9e563786f337e78edf
+  DTActionSheetPicker: bcdeaa76a6c9e91b0ed0e448adf514d9f3ff2d35
 
 PODFILE CHECKSUM: 3b242e84a5811929d45d6ac84bec8be3fe68aac1
 

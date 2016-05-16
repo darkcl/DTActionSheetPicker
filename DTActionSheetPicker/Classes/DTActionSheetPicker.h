@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@class DTActionSheetPickerBuilder;
+@class DTActionSheetPickerBuilder, DTTreeNode;
+
+typedef NS_ENUM(NSInteger, DTActionSheetPickerMode) {
+    DTActionSheetPickerDateMode,
+    DTActionSheetPickerTimeMode,
+};
+
+
 
 @interface DTActionSheetPicker : NSObject <UIPickerViewDelegate, UIPickerViewDataSource>
+
+typedef void(^DTActionDoneBlock)(DTActionSheetPicker *picker, NSDate *selectedDate, id origin);
+typedef void(^DTActionCancelBlock)(DTActionSheetPicker *picker);
 
 + (instancetype)showPickerWithTitle:(NSString *)title
                      datePickerMode:(DTActionSheetPickerMode)datePickerMode
@@ -22,6 +32,8 @@
 
 - (instancetype)initWithBuilder:(DTActionSheetPickerBuilder *)builder;
 
-- (void)showPicker;
+- (void)showPickerInView:(UIView *)view;
+
+@property (nonatomic, strong) DTTreeNode *dateTree;
 
 @end

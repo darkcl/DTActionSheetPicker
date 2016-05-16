@@ -10,13 +10,13 @@
 
 @class DTActionSheetPicker;
 
-typedef NS_ENUM(NSInteger, DTActionSheetPickerMode) {
-    DTActionSheetPickerDateMode,
-    DTActionSheetPickerTimeMode,
-};
-
-typedef void(^DTActionDoneBlock)(DTActionSheetPicker *picker, NSDate *selectedDate, id origin);
-typedef void(^DTActionCancelBlock)(DTActionSheetPicker *picker);
+//typedef NS_ENUM(NSInteger, DTActionSheetPickerMode) {
+//    DTActionSheetPickerDateMode,
+//    DTActionSheetPickerTimeMode,
+//};
+//
+//typedef void(^DTActionDoneBlock)(DTActionSheetPicker *picker, NSDate *selectedDate, id origin);
+//typedef void(^DTActionCancelBlock)(DTActionSheetPicker *picker);
 
 @interface DTGlobalValue : NSObject
 

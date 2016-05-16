@@ -9,6 +9,8 @@
 @import XCTest;
 
 #import <DTActionSheetPicker/DTActionSheetPicker.h>
+#import <DTActionSheetPicker/DTActionSheetPickerBuilder.h>
+#import <DTActionSheetPicker/DTTreeNode.h>
 
 @interface Tests : XCTestCase
 
@@ -28,9 +30,53 @@
     [super tearDown];
 }
 
+- (DTTreeNode *)addNodeWithData:(NSString *)str toNode:(DTTreeNode *)aNode{
+    DTTreeNode *nextNode = [[DTTreeNode alloc] init];
+    nextNode.data = str;
+    [aNode addChild:nextNode];
+    
+    return nextNode;
+}
+
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    DTActionSheetPicker *sut = [DTActionSheetPicker
+                                showPickerWithBuilder:^(DTActionSheetPickerBuilder *builder) {
+                                    NSArray *dates = @[@"2014-10-30",
+                                                       @"2014-11-30",
+                                                       @"2014-12-30",
+                                                       @"2014-01-10",
+                                                       @"2015-10-03"
+                                                       ];
+                                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                                    [formatter setTimeZone:[NSTimeZone localTimeZone]];
+                                    [formatter setDateFormat:@"yyyy-MM-dd"];
+                                    
+                                    NSMutableArray *result = [[NSMutableArray alloc] init];
+                                    for (NSString *str in dates) {
+                                        [result addObject:[formatter dateFromString:str]];
+                                    }
+                                    builder.pickerMode = DTActionSheetPickerDateMode;
+                                    builder.dateArray = [NSArray arrayWithArray:result];
+                                }
+                                origin:nil];
+    
+    // Expected Result
+    DTTreeNode *expected = [[DTTreeNode alloc] init];
+    
+    // Year
+    DTTreeNode *yearNode1 = [self addNodeWithData:@"2014" toNode:expected];
+    DTTreeNode *yearNode2 = [self addNodeWithData:@"2015" toNode:expected];
+    
+    // Month
+    [self addNodeWithData:@"10" toNode:[self addNodeWithData:@"01" toNode:yearNode1]];
+    [self addNodeWithData:@"30" toNode:[self addNodeWithData:@"10" toNode:yearNode1]];
+    [self addNodeWithData:@"30" toNode:[self addNodeWithData:@"11" toNode:yearNode1]];
+    [self addNodeWithData:@"30" toNode:[self addNodeWithData:@"12" toNode:yearNode1]];
+    
+    [self addNodeWithData:@"03" toNode:[self addNodeWithData:@"10" toNode:yearNode2]];
+    
+    XCTAssertTrue([expected isEqual:sut.dateTree]);
 }
 
 @end

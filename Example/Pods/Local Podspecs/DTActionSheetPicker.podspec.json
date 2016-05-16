@@ -1,8 +1,8 @@
 {
   "name": "DTActionSheetPicker",
   "version": "0.1.0",
-  "summary": "A short description of DTActionSheetPicker.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Date Time Picker with block.",
+  "description": "This library is to create a ActionSheet with an array of NSDate.",
   "homepage": "https://github.com/<GITHUB_USERNAME>/DTActionSheetPicker",
   "license": "MIT",
   "authors": {
@@ -13,7 +13,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
   "source_files": "DTActionSheetPicker/Classes/**/*"
 }

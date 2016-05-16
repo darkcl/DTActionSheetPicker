@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## DTActionSheetPicker
 
-Copyright (c) 2016 Yeung Yiu Hung <yeungyiuhung@cherrypicks.com>
+Copyright (c) 2016 Yeung Yiu Hung <hkclex@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0667C49AD34D695FAF78851CCCA64BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0E7E679F1CE5B86000FE3F4F /* DTGlobalValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7E679D1CE5B86000FE3F4F /* DTGlobalValue.h */; };
-		0E7E67A01CE5B86000FE3F4F /* DTGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E679E1CE5B86000FE3F4F /* DTGlobalValue.m */; };
-		0E7E67A31CE5C0B800FE3F4F /* DTTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7E67A11CE5C0B800FE3F4F /* DTTreeNode.h */; };
-		0E7E67A41CE5C0B800FE3F4F /* DTTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E67A21CE5C0B800FE3F4F /* DTTreeNode.m */; };
-		0EB7A07B1CE5928400A170BF /* DTActionSheetPickerBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB7A0791CE5928400A170BF /* DTActionSheetPickerBuilder.h */; };
-		0EB7A07C1CE5928400A170BF /* DTActionSheetPickerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7A07A1CE5928400A170BF /* DTActionSheetPickerBuilder.m */; };
+		0ACFB1CCDF1A54A76210CC55E5F844C0 /* DTGlobalValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CDC1868833AEFA8A8A4F9DA5C3A350 /* DTGlobalValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11D614505314F8B2BB67E947290300C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		70A57811DD9CFD157B13BE891239D59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		215F17FFFD45403773226AF253EB1C1A /* DTActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 346E1DF49C732C39D7B863F7FA414627 /* DTActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6700C535272A4999D5C0CA5E19929F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6886D00B0FED15B74FAEBEC13C3987F6 /* DTTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B1B1C6C76F52EF7CA699CF46A2024B /* DTTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77919E46E0958D5BC44D30F7DD68984C /* DTTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB61D61DA8E33CFF608A3E73D9C1E2 /* DTTreeNode.m */; };
 		8B6CE9AC1F0581332795DCE4179BFEBD /* Pods-DTActionSheetPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F88217D076A64440E2652E3CA8F14FE9 /* Pods-DTActionSheetPicker_Example-dummy.m */; };
 		8E4653A8D61148B2873B1DD28B9E6D93 /* Pods-DTActionSheetPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B33BBCCB3968253810A39579A0CDA2 /* Pods-DTActionSheetPicker_Tests-dummy.m */; };
-		D84691C67B8FFF51A37D1C91C974D224 /* DTActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D33C582A4E69033447869FCC003DBA5 /* DTActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E40FB2085BA691B892E550BDC7040062 /* DTActionSheetPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBD43F024BC00A8D3481B15C7D9C2F7 /* DTActionSheetPicker-dummy.m */; };
-		E4EB93946480BF3590D3C5AB77469909 /* DTActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3F668CA72F558F2CA81D21FBEECFE /* DTActionSheetPicker.m */; };
+		92985A95E8E097BD1FC6010529AE3F72 /* DTActionSheetPickerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9485791F9A8787900CF62557D40EF /* DTActionSheetPickerBuilder.m */; };
+		D00A2D09A490174AC36A6278B1A76A2E /* DTActionSheetPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBD43F024BC00A8D3481B15C7D9C2F7 /* DTActionSheetPicker-dummy.m */; };
+		EFAA03DBD1ABBAF0F48E96ACD9F7D60A /* DTActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F376844781989CB6EB536A5E342506 /* DTActionSheetPicker.m */; };
+		F1445E61FA3A51D2478C3D3A6F204462 /* DTGlobalValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F2B57F1639F9899A436CE5C031188 /* DTGlobalValue.m */; };
+		FD9CC4C8175A7E0901ADD48FB5042B35 /* DTActionSheetPickerBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F903C73772941AB58DF00F121D301A14 /* DTActionSheetPickerBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,31 +28,30 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F5611A2F5E315F07BD0A3E5E90FC7F4;
+			remoteGlobalIDString = F02C6BEA5F9B681D0F2517BCFB2F1BF8;
 			remoteInfo = DTActionSheetPicker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C3F668CA72F558F2CA81D21FBEECFE /* DTActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTActionSheetPicker.m; sourceTree = "<group>"; };
-		0E7E679D1CE5B86000FE3F4F /* DTGlobalValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGlobalValue.h; sourceTree = "<group>"; };
-		0E7E679E1CE5B86000FE3F4F /* DTGlobalValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGlobalValue.m; sourceTree = "<group>"; };
-		0E7E67A11CE5C0B800FE3F4F /* DTTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTreeNode.h; sourceTree = "<group>"; };
-		0E7E67A21CE5C0B800FE3F4F /* DTTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTreeNode.m; sourceTree = "<group>"; };
-		0EB7A0791CE5928400A170BF /* DTActionSheetPickerBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTActionSheetPickerBuilder.h; sourceTree = "<group>"; };
-		0EB7A07A1CE5928400A170BF /* DTActionSheetPickerBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTActionSheetPickerBuilder.m; sourceTree = "<group>"; };
 		14437AD206CB6766803DBE2059613E64 /* Pods-DTActionSheetPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTActionSheetPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1473D67C1B31868DF75FCF71187411B0 /* Pods-DTActionSheetPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTActionSheetPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		346E1DF49C732C39D7B863F7FA414627 /* DTActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTActionSheetPicker.h; sourceTree = "<group>"; };
 		3B658ACF3BDA158AE4DA8E862782E8CA /* libDTActionSheetPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTActionSheetPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D33C582A4E69033447869FCC003DBA5 /* DTActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTActionSheetPicker.h; sourceTree = "<group>"; };
+		40B1B1C6C76F52EF7CA699CF46A2024B /* DTTreeNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTTreeNode.h; sourceTree = "<group>"; };
 		4B3DA1E4A9E18A8E8D890E293F7E528F /* Pods-DTActionSheetPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTActionSheetPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3F2B57F1639F9899A436CE5C031188 /* DTGlobalValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTGlobalValue.m; sourceTree = "<group>"; };
+		57CDC1868833AEFA8A8A4F9DA5C3A350 /* DTGlobalValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTGlobalValue.h; sourceTree = "<group>"; };
 		59FF7E92B10A3A13603D96DF32073FEB /* Pods-DTActionSheetPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTActionSheetPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BEB61D61DA8E33CFF608A3E73D9C1E2 /* DTTreeNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTTreeNode.m; sourceTree = "<group>"; };
+		5ED9485791F9A8787900CF62557D40EF /* DTActionSheetPickerBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTActionSheetPickerBuilder.m; sourceTree = "<group>"; };
 		64647F990838B43A20752F8C598DEC55 /* Pods-DTActionSheetPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTActionSheetPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		647B6F3784123F875818C8CA955F1BF6 /* Pods-DTActionSheetPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTActionSheetPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		65F178EBE18C71B9D07A1D2DD339C4AE /* libPods-DTActionSheetPicker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTActionSheetPicker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7450E7F3FD03AE880180FECF91A86C1B /* Pods-DTActionSheetPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTActionSheetPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		74B33BBCCB3968253810A39579A0CDA2 /* Pods-DTActionSheetPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTActionSheetPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		80B87AE4D3920DBF527BC7E2F91827EC /* libPods-DTActionSheetPicker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTActionSheetPicker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F376844781989CB6EB536A5E342506 /* DTActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTActionSheetPicker.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8F647F2BF8BE3BCF550A1375C8C5D2 /* Pods-DTActionSheetPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTActionSheetPicker_Example-resources.sh"; sourceTree = "<group>"; };
 		A11B6D395D0CAA00C4F2055C44ADF589 /* Pods-DTActionSheetPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTActionSheetPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,22 +63,23 @@
 		E751CD55DEE92AB1A73552BEFAB78AED /* DTActionSheetPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTActionSheetPicker.xcconfig; sourceTree = "<group>"; };
 		EBBD43F024BC00A8D3481B15C7D9C2F7 /* DTActionSheetPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTActionSheetPicker-dummy.m"; sourceTree = "<group>"; };
 		F88217D076A64440E2652E3CA8F14FE9 /* Pods-DTActionSheetPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTActionSheetPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		F903C73772941AB58DF00F121D301A14 /* DTActionSheetPickerBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTActionSheetPickerBuilder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53E905FE9848C1F8BF3F7F0A00C9A8F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70A57811DD9CFD157B13BE891239D59E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56C1A28AE0529C1C506B606637501127 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				11D614505314F8B2BB67E947290300C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7654B4D027E2502DDECA7DA059DE370C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700C535272A4999D5C0CA5E19929F7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +161,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7BC0C123108FA5843067B484BA3289E5 /* DTActionSheetPicker */ = {
-			isa = PBXGroup;
-			children = (
-				84434FF71F2D84D4603667A14AA3A1E1 /* Classes */,
-			);
-			path = DTActionSheetPicker;
-			sourceTree = "<group>";
-		};
 		7BE9200F074A1CCC89F4417032BA6F34 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,19 +181,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		84434FF71F2D84D4603667A14AA3A1E1 /* Classes */ = {
+		9BF64187D2EA8FE7030B5B42D8BC8460 /* DTActionSheetPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3D33C582A4E69033447869FCC003DBA5 /* DTActionSheetPicker.h */,
-				09C3F668CA72F558F2CA81D21FBEECFE /* DTActionSheetPicker.m */,
-				0EB7A0791CE5928400A170BF /* DTActionSheetPickerBuilder.h */,
-				0EB7A07A1CE5928400A170BF /* DTActionSheetPickerBuilder.m */,
-				0E7E679D1CE5B86000FE3F4F /* DTGlobalValue.h */,
-				0E7E679E1CE5B86000FE3F4F /* DTGlobalValue.m */,
-				0E7E67A11CE5C0B800FE3F4F /* DTTreeNode.h */,
-				0E7E67A21CE5C0B800FE3F4F /* DTTreeNode.m */,
+				CC526D1EED342DF7EB6CF0141FF07FD7 /* Classes */,
 			);
-			path = Classes;
+			path = DTActionSheetPicker;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -212,10 +197,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC526D1EED342DF7EB6CF0141FF07FD7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				346E1DF49C732C39D7B863F7FA414627 /* DTActionSheetPicker.h */,
+				86F376844781989CB6EB536A5E342506 /* DTActionSheetPicker.m */,
+				F903C73772941AB58DF00F121D301A14 /* DTActionSheetPickerBuilder.h */,
+				5ED9485791F9A8787900CF62557D40EF /* DTActionSheetPickerBuilder.m */,
+				57CDC1868833AEFA8A8A4F9DA5C3A350 /* DTGlobalValue.h */,
+				4E3F2B57F1639F9899A436CE5C031188 /* DTGlobalValue.m */,
+				40B1B1C6C76F52EF7CA699CF46A2024B /* DTTreeNode.h */,
+				5BEB61D61DA8E33CFF608A3E73D9C1E2 /* DTTreeNode.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		FA26AAA27ADC8664647E41E6A3BA0355 /* DTActionSheetPicker */ = {
 			isa = PBXGroup;
 			children = (
-				7BC0C123108FA5843067B484BA3289E5 /* DTActionSheetPicker */,
+				9BF64187D2EA8FE7030B5B42D8BC8460 /* DTActionSheetPicker */,
 				606337B89DB84ABFF1ECB6414E8DA1D2 /* Support Files */,
 			);
 			name = DTActionSheetPicker;
@@ -225,14 +225,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30338389FFAF7FB2EBBDD0D693D838BB /* Headers */ = {
+		7BA78F507392973AF42FA58EDD530A2A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7E67A31CE5C0B800FE3F4F /* DTTreeNode.h in Headers */,
-				0EB7A07B1CE5928400A170BF /* DTActionSheetPickerBuilder.h in Headers */,
-				D84691C67B8FFF51A37D1C91C974D224 /* DTActionSheetPicker.h in Headers */,
-				0E7E679F1CE5B86000FE3F4F /* DTGlobalValue.h in Headers */,
+				215F17FFFD45403773226AF253EB1C1A /* DTActionSheetPicker.h in Headers */,
+				FD9CC4C8175A7E0901ADD48FB5042B35 /* DTActionSheetPickerBuilder.h in Headers */,
+				0ACFB1CCDF1A54A76210CC55E5F844C0 /* DTGlobalValue.h in Headers */,
+				6886D00B0FED15B74FAEBEC13C3987F6 /* DTTreeNode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,13 +255,13 @@
 			productReference = 80B87AE4D3920DBF527BC7E2F91827EC /* libPods-DTActionSheetPicker_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7F5611A2F5E315F07BD0A3E5E90FC7F4 /* DTActionSheetPicker */ = {
+		F02C6BEA5F9B681D0F2517BCFB2F1BF8 /* DTActionSheetPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB105922A1A8CBFD1C14FA215F02FA86 /* Build configuration list for PBXNativeTarget "DTActionSheetPicker" */;
+			buildConfigurationList = B95C3925F96B907D697B19B344D881F0 /* Build configuration list for PBXNativeTarget "DTActionSheetPicker" */;
 			buildPhases = (
-				3EA014045BF89D46CC5F5AFB37A8E125 /* Sources */,
-				53E905FE9848C1F8BF3F7F0A00C9A8F5 /* Frameworks */,
-				30338389FFAF7FB2EBBDD0D693D838BB /* Headers */,
+				EA6160542E3870405A7E9A7F4DCF2254 /* Sources */,
+				7654B4D027E2502DDECA7DA059DE370C /* Frameworks */,
+				7BA78F507392973AF42FA58EDD530A2A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,7 +310,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F5611A2F5E315F07BD0A3E5E90FC7F4 /* DTActionSheetPicker */,
+				F02C6BEA5F9B681D0F2517BCFB2F1BF8 /* DTActionSheetPicker */,
 				F92A506837A912B02B25FD05329F594E /* Pods-DTActionSheetPicker_Example */,
 				40206572A735CC7F46EEA077A9B1EBE1 /* Pods-DTActionSheetPicker_Tests */,
 			);
@@ -326,23 +326,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EA014045BF89D46CC5F5AFB37A8E125 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E7E67A01CE5B86000FE3F4F /* DTGlobalValue.m in Sources */,
-				0E7E67A41CE5C0B800FE3F4F /* DTTreeNode.m in Sources */,
-				0EB7A07C1CE5928400A170BF /* DTActionSheetPickerBuilder.m in Sources */,
-				E40FB2085BA691B892E550BDC7040062 /* DTActionSheetPicker-dummy.m in Sources */,
-				E4EB93946480BF3590D3C5AB77469909 /* DTActionSheetPicker.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4316BCD8186A7F01A9076BCD6BFB7B16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B6CE9AC1F0581332795DCE4179BFEBD /* Pods-DTActionSheetPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6160542E3870405A7E9A7F4DCF2254 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00A2D09A490174AC36A6278B1A76A2E /* DTActionSheetPicker-dummy.m in Sources */,
+				EFAA03DBD1ABBAF0F48E96ACD9F7D60A /* DTActionSheetPicker.m in Sources */,
+				92985A95E8E097BD1FC6010529AE3F72 /* DTActionSheetPickerBuilder.m in Sources */,
+				F1445E61FA3A51D2478C3D3A6F204462 /* DTGlobalValue.m in Sources */,
+				77919E46E0958D5BC44D30F7DD68984C /* DTTreeNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +352,7 @@
 		CDB3A95DEAFC130DAD7148A17A25C059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DTActionSheetPicker;
-			target = 7F5611A2F5E315F07BD0A3E5E90FC7F4 /* DTActionSheetPicker */;
+			target = F02C6BEA5F9B681D0F2517BCFB2F1BF8 /* DTActionSheetPicker */;
 			targetProxy = 896E4CE497989F8375D8070E5FE33E0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,6 +396,27 @@
 			};
 			name = Release;
 		};
+		187F9C11A46A2F13E5B7C10D0518445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E751CD55DEE92AB1A73552BEFAB78AED /* DTActionSheetPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTActionSheetPicker/DTActionSheetPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		5605BAAA6683A30E298E78CA81B647E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 647B6F3784123F875818C8CA955F1BF6 /* Pods-DTActionSheetPicker_Example.debug.xcconfig */;
@@ -417,48 +438,6 @@
 			};
 			name = Debug;
 		};
-		5DF191CC3174156BAAEED4BEE0EF0AC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751CD55DEE92AB1A73552BEFAB78AED /* DTActionSheetPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DTActionSheetPicker/DTActionSheetPicker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7C09886368DA46A01FEB7DA90BCEB1F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E751CD55DEE92AB1A73552BEFAB78AED /* DTActionSheetPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DTActionSheetPicker/DTActionSheetPicker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		9433FEA37B8CEB9AB1C748CE2E73CE1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A11B6D395D0CAA00C4F2055C44ADF589 /* Pods-DTActionSheetPicker_Tests.release.xcconfig */;
@@ -475,6 +454,27 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C299A32130C0423F8FC155CE19C038C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E751CD55DEE92AB1A73552BEFAB78AED /* DTActionSheetPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTActionSheetPicker/DTActionSheetPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -594,11 +594,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB105922A1A8CBFD1C14FA215F02FA86 /* Build configuration list for PBXNativeTarget "DTActionSheetPicker" */ = {
+		B95C3925F96B907D697B19B344D881F0 /* Build configuration list for PBXNativeTarget "DTActionSheetPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C09886368DA46A01FEB7DA90BCEB1F7 /* Debug */,
-				5DF191CC3174156BAAEED4BEE0EF0AC7 /* Release */,
+				187F9C11A46A2F13E5B7C10D0518445F /* Debug */,
+				9C299A32130C0423F8FC155CE19C038C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
